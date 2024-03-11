@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Hospital.Data.Entities.Patient>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstNameP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastNameP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdressP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumberP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAdressP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhotoP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientDetails)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicalHistoryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstNameP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastNameP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdressP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumberP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAdressP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhotoP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientDetails.Alergias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicalHistoryId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
