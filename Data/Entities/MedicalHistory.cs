@@ -49,5 +49,7 @@ namespace Hospital.Data.Entities
 
         [Required]
         public Patient? Patient { get; set; }
+        [Required]
+        public int PatientId { get; set; } // Foreign key property
     }
 }

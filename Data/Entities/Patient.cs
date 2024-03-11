@@ -56,5 +56,7 @@ namespace Hospital.Data.Entities
 
         [Required]
         public User? User { get; set; }
+        public int MedicalHistoryId { get; set; } // Foreign key property
+        public int PatientDetailId { get; set; }
     }
 }

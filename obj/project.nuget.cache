@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "23TBISzZsNeu5YznUGVmjx5yt0OOfcJgV62ZgpG6IV5+u87/lOOjL/oyDFjPUvRVy38vQSjJ88UZxRIZ/vEU0A==",
+  "dgSpecHash": "DWP7o9cekaPRUDktrUT997Oe+AYXfHeyKaFSKaC+LG8oYcKJX/TOpA+f5InuRSIUskU93NF6R2HdKl/5L96OFQ==",
   "success": true,
-  "projectFilePath": "C:\\projects\\C#projects\\Hospital-master\\Hospital.csproj",
+  "projectFilePath": "C:\\projects\\C#projects\\Hospital\\Hospital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jade\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jade\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

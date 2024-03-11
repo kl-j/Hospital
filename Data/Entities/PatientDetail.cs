@@ -29,5 +29,7 @@ namespace Hospital.Data.Entities
         [Required]
         public ICollection<ImageTaken>? ImagesTaken { get; set; }
 
+        public int PatientId { get; set; }
+
     }
 }

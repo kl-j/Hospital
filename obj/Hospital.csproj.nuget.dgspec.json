@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\C#projects\\Hospital-master\\Hospital.csproj": {}
+    "C:\\projects\\C#projects\\Hospital\\Hospital.csproj": {}
   },
   "projects": {
-    "C:\\projects\\C#projects\\Hospital-master\\Hospital.csproj": {
+    "C:\\projects\\C#projects\\Hospital\\Hospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\C#projects\\Hospital-master\\Hospital.csproj",
+        "projectUniqueName": "C:\\projects\\C#projects\\Hospital\\Hospital.csproj",
         "projectName": "Hospital",
-        "projectPath": "C:\\projects\\C#projects\\Hospital-master\\Hospital.csproj",
+        "projectPath": "C:\\projects\\C#projects\\Hospital\\Hospital.csproj",
         "packagesPath": "C:\\Users\\jade\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\C#projects\\Hospital-master\\obj\\",
+        "outputPath": "C:\\projects\\C#projects\\Hospital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
