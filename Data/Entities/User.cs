@@ -15,12 +15,14 @@ namespace Hospital.Data.Entities
         [Required]
         public string? LastName { get; set; }
 
-        [Required]
-        [Display(Name = "Teléfono")]
-        [MaxLength(20, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres")]
+        //[Required]
+        //[Display(Name = "Teléfono")]
+        //[MaxLength(20, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres")]
 
         ///REVISAR PHONE
-        public override string PhoneNumber { get => base.PhoneNumber; set => base.PhoneNumber = value; }
+        //public override string PhoneNumber { get => base.PhoneNumber; set => base.PhoneNumber = value; }
+
+
 
     }
 }
