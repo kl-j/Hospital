@@ -17,7 +17,7 @@ namespace Hospital.Data.Entities
         {
 
         }
-        //Relacion Patien, MedicalHistory
+        //Relacion Patient, MedicalHistory
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MedicalHistory>()
